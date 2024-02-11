@@ -1,20 +1,16 @@
 {
   "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "nodejs-complete-guide",
+  "main": "app.js",
   "engines": {
     "node": "18.17.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production MONGO_USER=bewithshakir MONGO_PASSWORD=shsamring2_432014 MONOG_DEFAULT_DB=messages node app.js",
-    "build": "netlify deploy --prod",
+    "start-server": "node app.js",
     "start:dev": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/udemy-course-nodejs-complete"
   },
   "author": "",
   "license": "ISC",
